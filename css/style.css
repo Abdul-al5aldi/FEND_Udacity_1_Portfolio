@@ -20,7 +20,7 @@ img {
 
 .line {
     width: 100%; 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
     margin-bottom: 0
     
 }
@@ -69,7 +69,7 @@ img {
     color: #f45b69;
     font-weight: bold;
     background-color: black;
-    border: 1px solid white;
+    border: 0.1px solid rgba(255, 255, 255, 0.35);;
 }
 
 .card:hover {

@@ -1,0 +1,109 @@
+body {
+    background-color: black
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#logo {
+    margin: auto;
+    padding-top: 15px;
+    width: 140px;
+    float: left;
+}
+
+.line {
+    width: 100%; 
+    border-bottom: 1px solid white;
+    margin-bottom: 0
+    
+}
+
+#center-image {
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.top-row {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: auto;
+    object-fit: cover
+}
+
+.card-img-top:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+  
+.footer {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 3px 0px 3px -10px;
+    color: white;
+    text-align: left;
+    align-items: left
+}
+  
+.card {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f45b69;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 5px 0px white;
+}
+  
+.subtitle{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.heart {
+    color: red;
+}
+
+.cap::first-letter {
+    -webkit-initial-letter: 4;
+            initial-letter: 4;
+    color: #f45b69;
+    font-weight: bold;
+    margin-right: .3em;
+    font-size: 2em
+}
+
+.text-row {
+    align-items: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2;
+    margin: 80px 120px 40px 120px;
+    color: white;
+    text-align: justify;
+    text-justify: distribute-all-lines
+}

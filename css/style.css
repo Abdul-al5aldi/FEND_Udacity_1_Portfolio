@@ -36,10 +36,18 @@ img {
     padding: 2px;
 }
 
-.top-row {
+header {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-top: 30px;
     text-align: right;
+}
+
+.heading {
+    color: #028090;
+}
+
+.subheading {
+    color: #f45b69;
 }
 
 .card-img-top {
@@ -53,12 +61,11 @@ img {
     transform: scaleX(-1);
 }
   
-.footer {
+footer {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    margin: 3px 0px 3px -10px;
+    margin: 3px 0px 3px 0px;
     color: white;
     text-align: left;
-    align-items: left
 }
   
 .card {
@@ -106,7 +113,6 @@ img {
     margin: 80px 120px 40px 120px;
     color: white;
     text-align: justify;
-    text-justify: distribute-all-lines
 }
 
 

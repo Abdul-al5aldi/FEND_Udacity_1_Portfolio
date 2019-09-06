@@ -32,7 +32,7 @@ img {
     max-width: 100%;
     margin-bottom: 30px;
     border: 1px solid black;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 2px;
 }
 
@@ -63,6 +63,7 @@ img {
   
 .card {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
@@ -106,4 +107,34 @@ img {
     color: white;
     text-align: justify;
     text-justify: distribute-all-lines
+}
+
+
+.fa {
+    padding: 0px 15px 0px 15px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa-twitter {
+    color: #55ACEE;
+}
+.fa-twitter:hover {
+    color: white;
+}
+  
+.fa-linkedin {
+    color: #007bb5;
+}
+.fa-linkedin:hover {
+    color: white;
+}
+  
+.fa-instagram {
+    color: #c13584;
+}
+.fa-instagram:hover {
+    color: white;
 }
